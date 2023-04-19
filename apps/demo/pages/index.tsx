@@ -1,4 +1,4 @@
-import styles from "./index.module.css";
+import styles from './index.module.css';
 
 export function Index() {
   /*
@@ -292,8 +292,8 @@ export function Index() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {" "}
-                  What is Nx Cloud?{" "}
+                  {' '}
+                  What is Nx Cloud?{' '}
                 </a>
               </div>
               <a
@@ -341,9 +341,9 @@ export function Index() {
               </summary>
               <pre>
                 <span># Generate UI lib</span>
-                nx g @nrwl/next:library ui
+                nx g @nx/next:library ui
                 <span># Add a component</span>
-                nx g @nrwl/next:component button --project=ui
+                nx g @nx/next:component button --project=ui
               </pre>
             </details>
             <details>
